@@ -1835,7 +1835,7 @@ only screen and (min-width: 125em) {
 }
 
 .header__logo {
-	height: 3.5rem
+	height: 4.5rem
 }
 
 .header__text-box {
@@ -1944,7 +1944,7 @@ only screen and (min-width: 125em) {
 	padding: 1rem 2rem;
 	color: #fff;
 	text-decoration: none;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
 	background-size: 220%;
 	-webkit-transition: all .4s;
