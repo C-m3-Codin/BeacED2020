@@ -23,8 +23,8 @@ body {
 }
 
 #particle1 {
-    background-color: #ffffff;
-    position: absolute;
+    background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182));
+    position: relative;
     width: 96%;
     z-index: -1;
 }
@@ -32,6 +32,36 @@ body {
 #particle2 {
     background-color: #ffffff;
     position: absolute;
+    height: 10%;
     width: 96%;
     z-index: -1;
+}
+
+#snow {
+    background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182));
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    margin-top: -10rem;
+}
+
+#snow2 {
+    background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182));
+    margin-top: -10rem;
+}
+
+#box {
+    position: absolute;
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+    top: 275%;
+    left: 10%;
+}
+
+#box2 {
+    position: absolute;
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+    top: 735%;
+    left: 13%;
+    width: 100%;
 }
