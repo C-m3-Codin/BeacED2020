@@ -1268,7 +1268,7 @@ only screen and (hover: none) {
 }
 
 .feature-box {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.6);
 	font-size: 1.5rem;
 	padding: 2.5rem;
 	text-align: center;
@@ -1304,6 +1304,8 @@ only screen and (hover: none) {
 }
 
 .feature-box:hover {
+	background-image: radial-gradient(ellipse,rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6) 85%);
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
 	-webkit-transform: translateY(-1.5rem) scale(1.03);
 	transform: translateY(-1.5rem) scale(1.03)
 }
