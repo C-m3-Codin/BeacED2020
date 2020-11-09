@@ -2,39 +2,75 @@ var a = 0;
 var b = 0;
 var c = 0;
 var d = 0;
+
+
+
+function doCountDown()
+{
+  setInterval(participants, 10);
+  setInterval(teams, 100);
+  setInterval(hours, 10);
+  setInterval(cols, 100);
+
+  }
 function participants()
 {
   if (a < 1000)
   {
-    a += 1
+    a += 10
   }
-  document.getElementById('part').innerHTML = a;
+  console.log(a);
+  var aa="<h1>"+a+"</h1>";
+  document.getElementById('part').innerHTML = aa;
 }
-setInterval(participants, 10);
+// setInterval(participants, 10);
 function teams()
 {
   if (b < 100)
   {
-    b += 1
+    b += 4
   }
-  document.getElementById('team').innerHTML = b;
+  var aa="<h1>"+b+"</h1>";
+  document.getElementById('team').innerHTML = aa;
 }
-setInterval(teams, 100);
+// setInterval(teams, 100);
 function hours()
 {
   if (c < 2000)
   {
-    c += 1
+    c += 4
   }
-  document.getElementById('hour').innerHTML = c;
+  var aa="<h1>"+c+"</h1>";
+  document.getElementById('hour').innerHTML = aa;
 }
-setInterval(hours, 5);
+// setInterval(hours, 1);
 function cols()
 {
-  if (d < 10)
+  if (d < 30)
   {
     d += 1
   }
-  document.getElementById('col').innerHTML = d;
+  var aa="<h1>"+d+"</h1>";
+  document.getElementById('col').innerHTML = aa;
 }
-setInterval(cols, 1000);
+// setInterval(cols, 100);
+
+
+
+
+const elem=document.getElementById("countPeople");
+console.log("here tadaaa");
+
+var observer = new IntersectionObserver(function(entries) {
+  // isIntersecting is true when element and viewport are overlapping
+	// isIntersecting is false when element and viewport don't overlap
+	if(entries[0].isIntersecting === true){
+  console.log('Element has just become visible in screen');
+  doCountDown();
+}
+  else{
+    console.log('Element has just become visible not in screen');
+  }
+}, { threshold: [0] });
+
+observer.observe(elem);
