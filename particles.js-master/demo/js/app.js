@@ -3,11 +3,18 @@
 /* ----------------------------------------------- */
 
 
-particlesJS.load('particle1', 'particlesjs-config.json', function() {
+// particlesJS.load('particle1', 'particlesjs-config.json', function() {
+//   console.log('particles.js loaded - callback');
+// });
+
+// particlesJS.load('particle2', 'particlesjs-config.json', function() {
+//   console.log('particles.js loaded - callback');
+// });
+
+particlesJS.load('snow', 'snow-config.json', function() {
   console.log('particles.js loaded - callback');
 });
-
-particlesJS.load('particle2', 'particlesjs-config.json', function() {
+particlesJS.load('snow2', 'snow-config.json', function() {
   console.log('particles.js loaded - callback');
 });
 /* Otherwise just put the config content (json): */
