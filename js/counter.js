@@ -15,7 +15,7 @@ function doCountDown()
   }
 function participants()
 {
-  if (a < 1000)
+  if (a < 240)
   {
     a += 10
   }
@@ -26,7 +26,7 @@ function participants()
 // setInterval(participants, 10);
 function teams()
 {
-  if (b < 100)
+  if (b < 60)
   {
     b += 4
   }
@@ -36,7 +36,7 @@ function teams()
 // setInterval(teams, 100);
 function hours()
 {
-  if (c < 2000)
+  if (c < 146)
   {
     c += 4
   }
