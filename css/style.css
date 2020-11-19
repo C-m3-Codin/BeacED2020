@@ -1829,8 +1829,8 @@ only screen and (hover: none) {
 only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
 only screen and (min-width: 125em) {
 	.header {
-		background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 0, 0, 0.8)), to(rgba(17, 0, 255, 0.8))), url(../img/main-beach.jpg);
-		background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.8), rgba(0, 68, 255, 0.8)), url(../img/main-beach.jpg)
+		background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(68, 194, 176, 0.8)), to(rgba(48, 144, 182, 0.8))), url(../img/main-beach.jpg);
+		background-image: linear-gradient(to right bottom, rgba(68, 194, 176, 0.8), rgba(48, 144, 182, 0.8)), url(../img/main-beach.jpg)
 	}
 }
 
@@ -2102,14 +2102,9 @@ only screen and (min-width: 125em) {
 
 .section-book {
 	padding: 15rem 0;
-<<<<<<< HEAD
-	background-image: -webkit-gradient(linear, left top, right bottom, from(rgb(68, 194, 176)), torgb(48, 144, 182));
-	background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182))
-=======
 	/* background-image: -webkit-gradient(linear, left top, right bottom, from(rgb(68, 194, 176)), torgb(48, 144, 182)));
 	background-image: linear-gradient(to right bottom, rgb(68, 194, 176), rgb(48, 144, 182)) */
 	background-color: rgba(0, 0, 0, 0);
->>>>>>> anand
 }
 
 @media only screen and (max-width: 56.25em) {
