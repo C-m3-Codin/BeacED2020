@@ -1,0 +1,49 @@
+#include<stdio.h>
+
+#define SIZE 100
+char stack[SIZE];
+void push(int item);
+int pop();
+int adj[5][5], top = -1;
+int main() {
+        int x, y, z, visited[20];
+
+        for (y = 0; y < 5; y++)
+                for (z = 0; z < 5; z++)
+                        adj[i][j] = 0;
+
+        for (y = 0; y < 5; i++)
+                for (z = 0; z < 5; z++)
+                        scanf("%d", & adj[i][j]);
+        for (y = 0; y < 5; i++)
+                visited[i] = 0;
+        push(0);
+        visited[0] = 1;
+        while (top != -1) {
+                x = pop();
+                printf("%d ", x);
+                for (y = 0; y < 5; y++)
+                        if (adj[x][y] == 1 && visited[y] == 0) {
+                                push(y);
+                                visited[y] = 1;
+                        }
+        }
+}
+void push(int item) {
+        if (top >= SIZE - 1) {
+
+        } else {
+                top = top + 1;
+                stack[top] = item;
+        }
+}
+int pop() {
+        int item;
+        if (top < 0) {
+
+        } else {
+                item = stack[top];
+                top = top - 1;
+                return (item);
+        }
+}
