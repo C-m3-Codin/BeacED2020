@@ -1,3 +1,33 @@
+$(document).ready(function() {
+  $('#regisOpen').click(function() {
+      $('#FunnuBone').toggle();
+
+          })
+
+
+          $('#GameSet').click(function() {
+            $('#Game1').toggle();
+      
+                })
+
+
+                $('#upCominTog').click(function() {
+                  $('#UpCominList').toggle();
+            
+                      })
+          
+
+          $('#Schedule').click(function() {
+            $('#tmLine').toggle();
+      
+                })
+          
+          
+          
+          })
+          
+
+
 document.getElementById('TheQueryForm').addEventListener('submit', formSubmit);
 
 //Submit form

@@ -775,6 +775,7 @@ body {
 }
 
 .heading-secondary {
+	cursor: pointer;
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -821,6 +822,7 @@ body {
 }
 
 .u-center-text {
+	
 	text-align: center !important
 }
 
@@ -1050,7 +1052,7 @@ body {
 
 .card__picture--22 {
 	background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/nat-5.jpg);
-	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/komedylite.jpg)
+	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../games/valorant.jpeg)
 }
 
 .card__picture--1 {
