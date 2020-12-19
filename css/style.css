@@ -1,3 +1,46 @@
+
+/* imit overlay */
+.containerOverL {
+	position: relative;
+	width: 50%;
+  }
+  
+  .imageOverL {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	right: 0;
+	background-color: #008CBA;
+	opacity: .4;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+  }
+  
+  .containerOverL:hover .overlay {
+	width: 100%;
+	left: 0;
+  }
+  
+  .textOverL {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+  }
+/* imit overlay */
 .section-title {
     margin: 50px 0;
     font-size: 3rem !important;
@@ -1961,9 +2004,9 @@ only screen and (hover: none) {
 	/* left top, right bottom, from(rgb(68, 194, 176)), to(rgb(48, 144, 182)) */
 	/* height: 85vh; */
 	height: 100%;
-	background-image:  url(../img/main-beach.jpg);
+	background-image:-webkit-gradient(linear, left top, right bottom, from(rgba(68, 194, 176, 0.267)), to(rgba(48, 144, 182, 0.548))),  url(../img/main-beach.jpg);
 	/* -webkit-gradient(linear, left top, right bottom, from(rgba(68, 194, 176, 0.267)), to(rgba(48, 144, 182, 0.548))), */
-	background-image:  url(../img/main-beach.jpg);
+	background-image: linear-gradient(to right bottom, rgba(68, 194, 176, 0.48), rgba(48, 144, 182, 0.486) ), url(../img/main-beach.jpg);
 	/* linear-gradient(to right bottom, rgba(68, 194, 176, 0.48), rgba(48, 144, 182, 0.486) ), */
 	/* background-color: rgba(0, 0, 0, 0); */
 	/* headercancelledhere */
@@ -1978,7 +2021,7 @@ only screen and (hover: none) {
 
 @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
 	.header {
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+		/* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
 		/* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
 		height: 95vh
 	}
@@ -1988,9 +2031,9 @@ only screen and (hover: none) {
 only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
 only screen and (min-width: 125em) {
 	.header {
-		background-image:  url(../img/main-beach.jpg);
+		background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(68, 194, 176, 0.8)), to(rgba(48, 144, 182, 0.8))), url(../img/main-beach.jpg);
 		/* -webkit-gradient(linear, left top, right bottom, from(rgba(68, 194, 176, 0.8)), to(rgba(48, 144, 182, 0.8))) */
-		background-image: url(../img/main-beach.jpg);
+		background-image:linear-gradient(to right bottom, rgba(68, 194, 176, 0.8), rgba(48, 144, 182, 0.8)), url(../img/main-beach.jpg);
 		/* here */
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -2001,8 +2044,9 @@ only screen and (min-width: 125em) {
 
 @media only screen and (max-width: 37.5em) {
 	.header {
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-		clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%)
+		/* header poly botth */
+		/* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); */
+		/* clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%) */
 	}
 }
 
