@@ -76,10 +76,10 @@
     -webkit-transform: translate(0%, 50%);
     transform: translate(0%, 50%);
     width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-    padding: 10px 30px;
-        padding-top: 10px;
+    /* width: -moz-min-content; */
+    /* width: min-content; */
+    padding: 10px 80px;
+        padding-top: 70px;
     background-color: #000;
     border-radius: 500px;
     color: #fff;
@@ -101,7 +101,8 @@
 
 .sponsors .tier-title-wrapper .line {
     height: 2px;
-    width: 70%;
+	width: 70%;
+	/* width: 90%; */
     border-radius: 200px;
     background-color: rgba(0,0,0,0.2);
 }
