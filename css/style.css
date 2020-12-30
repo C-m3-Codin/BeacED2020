@@ -1255,6 +1255,22 @@ body {
 }
 
 
+.card__side--back-talent {
+	background-image:url(../img/talent.jpeg);
+	/* background-size: 100%;
+	background-size: cover; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+	.card__side--back-funny {
+		background-image:url(../winners/funny_win.jpeg);
+		/* background-size: 100%;
+		background-size: cover; */
+		background-size: cover;
+		background-repeat: no-repeat;
+		}
+
 .card__side--back-Valorant {
 background-image:url(../games/ValoPoster-1.png);
 /* background-size: 100%;
@@ -1278,11 +1294,11 @@ background-repeat: no-repeat;
 		}
 
 		.card__side--back-brawhalla {
-			background-image:url(../games/BrawlHalla.png);
+			background-image:url(../winners/brawWin.jpeg);
 			/* background-size: 100%;
 			background-size: cover; */
-			background-size: cover;
-			background-repeat: no-repeat;
+			background-size:cover;
+			background-repeat:inherit;
 			}
 
 .card__side--back-2 {
@@ -1333,7 +1349,10 @@ background-repeat: no-repeat;
 }
 
 
-
+.card__picture--talent {
+	background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/nat-5.jpg);
+	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img//talent.jpeg)
+}
 
 
 
