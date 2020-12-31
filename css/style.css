@@ -1278,6 +1278,18 @@ background-size: cover; */
 background-size: cover;
 background-repeat: no-repeat;
 }
+
+
+
+.card__side--back-lucid {
+	background-image:url(../games/inhousedevnew.jpg);
+	/* background-size: 100%;
+	background-size: cover; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+
 .card__side--back-rocket {
 	background-image:url(../games/newrock3.jpg);
 	/* background-size: 100%;
@@ -1338,6 +1350,13 @@ background-repeat: no-repeat;
 .card__picture--valorant {
 	background-image: url(../games/ValoPoster-1.png);
 	background-image: url(../games/ValoPoster-1.png)
+}
+
+
+
+.card__picture--lucid {
+	background-image: url(../games/inhousedevnew.jpg);
+	background-image: url(../games/inhousedevnew.jpg)
 }
 .card__picture--roocket {
 	background-image:  url(../games/newrock3.jpg);
