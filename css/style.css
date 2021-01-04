@@ -1254,6 +1254,19 @@ body {
 	/* background-repeat: no-repeat; */
 }
 
+.card__side--back-web {
+	/* background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)); */
+	/* background-image: linear-gradient(to right bottom, #ffb900, #ff7730) */
+
+	background-image:url(../img/web.jpeg);
+	/* background-size: 100%;
+	background-size: cover; */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
 
 .card__side--back-talent {
 	background-image:url(../img/talent.jpeg);
@@ -1383,6 +1396,13 @@ background-repeat: no-repeat;
 .card__picture--1 {
 	background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/nat-5.jpg);
 	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg)
+}
+
+
+
+.card__picture--web {
+	background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/web.jpeg);
+	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/web.jpeg)
 }
 
 .card__picture--2 {
