@@ -1254,19 +1254,6 @@ body {
 	/* background-repeat: no-repeat; */
 }
 
-.card__side--back-web {
-	/* background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)); */
-	/* background-image: linear-gradient(to right bottom, #ffb900, #ff7730) */
-
-	background-image:url(../img/web.jpeg);
-	/* background-size: 100%;
-	background-size: cover; */
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-
-
 
 .card__side--back-talent {
 	background-image:url(../img/talent.jpeg);
@@ -1291,18 +1278,6 @@ background-size: cover; */
 background-size: cover;
 background-repeat: no-repeat;
 }
-
-
-
-.card__side--back-lucid {
-	background-image:url(../games/inhousedevnew.jpg);
-	/* background-size: 100%;
-	background-size: cover; */
-	background-size: cover;
-	background-repeat: no-repeat;
-	}
-
-
 .card__side--back-rocket {
 	background-image:url(../games/newrock3.jpg);
 	/* background-size: 100%;
@@ -1364,13 +1339,6 @@ background-repeat: no-repeat;
 	background-image: url(../games/ValoPoster-1.png);
 	background-image: url(../games/ValoPoster-1.png)
 }
-
-
-
-.card__picture--lucid {
-	background-image: url(../games/inhousedevnew.jpg);
-	background-image: url(../games/inhousedevnew.jpg)
-}
 .card__picture--roocket {
 	background-image:  url(../games/newrock3.jpg);
 	background-image:  url(../games/newrock3.jpg)
@@ -1396,13 +1364,6 @@ background-repeat: no-repeat;
 .card__picture--1 {
 	background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/nat-5.jpg);
 	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg)
-}
-
-
-
-.card__picture--web {
-	background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730)), url(../img/web.jpeg);
-	background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/web.jpeg)
 }
 
 .card__picture--2 {
